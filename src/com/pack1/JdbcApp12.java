@@ -44,7 +44,7 @@ public class JdbcApp12 {
             pstmt1.setString(3,"Sleeper");
 
             int rowCount1 = pstmt1.executeUpdate();
-            if (rowCount1 == 0){
+            if (rowCount1 == 0) {
                 throw new RuntimeException("Seats are not available");
             }else{
                 System.out.println("Seat is Locked");
@@ -69,7 +69,7 @@ public class JdbcApp12 {
                     pstmt3.setString(1,"C123");
                     ResultSet rs = pstmt3.executeQuery();
                     if(rs.next()){
-                        if(rs.getString(1).equals("Success")){
+                        if(rs.  getString(1).equals("Success")){
                             PreparedStatement pstmt4 = con.prepareStatement(sqlQuery4);
                             pstmt4.setString(1,"123");
                             int rowCount3 = pstmt4.executeUpdate();

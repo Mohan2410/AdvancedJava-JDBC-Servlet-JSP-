@@ -77,7 +77,6 @@ public class JdbcApp10 {
             cstmt.registerOutParameter(3, Types.VARCHAR);
             cstmt.registerOutParameter(4, Types.INTEGER);
             cstmt.registerOutParameter(5, Types.FLOAT);
-
             cstmt.execute();
 
             System.out.println("********Employee Details********");
