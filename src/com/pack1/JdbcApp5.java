@@ -1,9 +1,6 @@
 package com.pack1;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
+import java.sql.*;
 import java.util.Scanner;
 
 public class JdbcApp5 {
@@ -26,7 +23,7 @@ public class JdbcApp5 {
         }
         return con;
     }
-    void operation(){
+    void operation() throws SQLException {
         Connection con = connect();
 
         try{
@@ -140,11 +137,16 @@ public class JdbcApp5 {
                 }
 
             }
+
         }catch(Exception e){
             e.printStackTrace();
         }
+        finally {
+            con.close();
+        }
+
     }
-    public static void main(String[] args){
+    public static void main(String[] args) throws SQLException {
         JdbcApp5 obj = new JdbcApp5();
         obj.operation();
     }
