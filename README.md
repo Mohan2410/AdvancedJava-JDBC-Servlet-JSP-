@@ -105,19 +105,19 @@ The basic JDBC architecture can be represented as:
 |      Database        |
 +----------------------+
 
-📂 Repository Structure
+## 📂 Repository Structure
+
+```text
 AdvancedJava-JDBC-Servlet-JSP-/
 │
 ├── src/
 │   └── com/
 │       └── pack1/
-│
 │           ├── CallableStatementExample.java
 │           ├── ClassA.java
 │           ├── ClassB.java
 │           ├── ConnectionPool.java
 │           ├── InterfaceA.java
-│           │
 │           ├── JdbcApp1.java
 │           ├── JdbcApp2.java
 │           ├── JdbcApp3.java
