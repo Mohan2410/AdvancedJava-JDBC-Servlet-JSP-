@@ -107,3 +107,39 @@ The basic JDBC architecture can be represented as:
 
 
 └── README.md
+
+---
+
+# 📂 Repository Structure
+
+```text
+AdvancedJava-JDBC-Servlet-JSP-/
+│
+├── src/
+│   └── com/
+│       └── pack1/
+│           ├── CallableStatementExample.java
+│           ├── ClassA.java
+│           ├── ClassB.java
+│           ├── ConnectionPool.java
+│           ├── InterfaceA.java
+│           ├── JdbcApp1.java
+│           ├── JdbcApp2.java
+│           ├── JdbcApp3.java
+│           ├── JdbcApp4.java
+│           ├── JdbcApp5.java
+│           ├── JdbcApp6.java
+│           ├── JdbcApp7.java
+│           ├── JdbcApp8.java
+│           ├── JdbcApp9.java
+│           ├── JdbcApp10.java
+│           ├── JdbcApp12.java
+│           ├── JdbcApp13.java
+│           ├── JdbcApp13MovieTicket.java
+│           ├── JdbcApp15.java
+│           ├── JdbcApp16.java
+│           ├── JdbcApp17.java
+│           └── JdbcApp18.java
+│
+├── .gitignore
+└── README.md
