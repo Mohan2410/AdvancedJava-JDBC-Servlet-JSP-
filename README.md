@@ -142,4 +142,3 @@ AdvancedJava-JDBC-Servlet-JSP-/
 │           └── JdbcApp18.java
 │
 ├── .gitignore
-└── README.md
