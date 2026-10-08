@@ -230,8 +230,8 @@ Class.forName("oracle.jdbc.OracleDriver");
 
 Connection con = DriverManager.getConnection(
     "jdbc:oracle:thin:@localhost:1521:free",
-    "system",
-    "System123"
+    "s***m",
+    "S*******3"
 );
 ```
 
