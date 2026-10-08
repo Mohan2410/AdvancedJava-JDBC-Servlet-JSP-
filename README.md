@@ -105,6 +105,7 @@ The basic JDBC architecture can be represented as:
 |      Database        |
 +----------------------+
 
+📂 Repository Structure
 AdvancedJava-JDBC-Servlet-JSP-/
 │
 ├── src/
